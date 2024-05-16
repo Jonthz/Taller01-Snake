@@ -63,14 +63,10 @@ public class GUIView extends JPanel {
 
 		// Create a new button on that panel and add a StartGameListener as
 		// listener on that button
-<<<<<<< HEAD
+
         
 		this.startGameButton = new JButton("Let’s Play");
 
-
-=======
-		this.startGameButton = new JButton("Jugar");
->>>>>>> 473368f4cb0b84bb4ed7c1b2a83f935260b537ed
 		this.startGameButton.addActionListener(new StartGameListener());
 		this.guiPanel.add(this.startGameButton);
 
