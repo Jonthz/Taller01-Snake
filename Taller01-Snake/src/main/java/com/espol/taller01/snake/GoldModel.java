@@ -1,4 +1,4 @@
-package com.espol.taller01.snake;
+    package com.espol.taller01.snake;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -62,7 +62,7 @@ public class GoldModel extends GameModel {
 	
 			
 	/** Graphical representation of the collector */
-	private static final GameTile COLLECTOR_TILE = new RoundTile(Color.BLACK,
+	private static final GameTile COLLECTOR_TILE = new RoundTile(Color.BLUE ,
 			Color.RED, 2.0);
 
 	/** Graphical representation of a blank tile. */
